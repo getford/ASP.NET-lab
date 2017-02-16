@@ -325,6 +325,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+    width: 245px;
 }
 
 button,
@@ -332,6 +333,8 @@ input,
 select[multiple],
 textarea {
   background-image: none;
+    height: 0px;
+    width: 191px;
 }
 
 a {

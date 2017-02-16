@@ -25,9 +25,9 @@
     <p>
         <asp:Button ID="Button_system_info" runat="server" OnClick="Button_sys_info" Text="Button info" />
     </p>
-    <p>
+<p>
         &nbsp;</p>
     <p>
-    </p>
-
+        &nbsp;</p>
+    
 </asp:Content>

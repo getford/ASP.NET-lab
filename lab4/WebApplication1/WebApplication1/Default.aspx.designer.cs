@@ -13,6 +13,15 @@ namespace WebApplication1 {
     public partial class _Default {
         
         /// <summary>
+        /// Reset_button элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputReset Reset_button;
+        
+        /// <summary>
         /// Button_reset элемент управления.
         /// </summary>
         /// <remarks>
