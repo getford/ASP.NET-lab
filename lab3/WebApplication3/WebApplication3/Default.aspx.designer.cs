@@ -7,108 +7,99 @@
 // </автоматически создаваемое>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1 {
+namespace WebApplication3 {
     
     
     public partial class _Default {
         
         /// <summary>
-        /// Reset1 элемент управления.
+        /// Button_get элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputReset Reset1;
+        protected global::System.Web.UI.WebControls.Button Button_get;
         
         /// <summary>
-        /// Button1 элемент управления.
+        /// Label_get элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputButton Button1;
+        protected global::System.Web.UI.WebControls.Label Label_get;
         
         /// <summary>
-        /// Submit1 элемент управления.
+        /// Button_post элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputSubmit Submit1;
+        protected global::System.Web.UI.WebControls.Button Button_post;
         
         /// <summary>
-        /// File1 элемент управления.
+        /// Label_post элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputFile File1;
+        protected global::System.Web.UI.WebControls.Label Label_post;
         
         /// <summary>
-        /// Text1 элемент управления.
+        /// Button_put элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText Text1;
+        protected global::System.Web.UI.WebControls.Button Button_put;
         
         /// <summary>
-        /// Password1 элемент управления.
+        /// Label_put элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword Password1;
+        protected global::System.Web.UI.WebControls.Label Label_put;
         
         /// <summary>
-        /// Checkbox1 элемент управления.
+        /// TextBox_X элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox Checkbox1;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_X;
         
         /// <summary>
-        /// Radio1 элемент управления.
+        /// TextBox_Y элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Radio1;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_Y;
         
         /// <summary>
-        /// Radio2 элемент управления.
+        /// Button_sum элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Radio2;
+        protected global::System.Web.UI.WebControls.Button Button_sum;
         
         /// <summary>
-        /// TextArea1 элемент управления.
+        /// Label_result элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTextArea TextArea1;
-        
-        /// <summary>
-        /// Select1 элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect Select1;
+        protected global::System.Web.UI.WebControls.Label Label_result;
     }
 }
