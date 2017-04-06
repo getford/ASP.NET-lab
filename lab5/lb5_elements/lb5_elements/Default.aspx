@@ -72,7 +72,7 @@
                 &nbsp;<asp:Label ID="Label2" runat="server" Text="view2"></asp:Label>
                 <br />
                 <br />
-                <asp:TreeView ID="TreeView1" runat="server" OnTreeNodeCheckChanged="TreeView1_TreeNodeCheckChanged" ShowCheckBoxes="Root" OnSelectedNodeChanged="TreeView1_SelectedNodeChanged" BorderStyle="None" ShowLines="True" Width="228px">
+                <asp:TreeView ID="TreeView1" runat="server" OnTreeNodeCheckChanged="TreeView1_TreeNodeCheckChanged" OnSelectedNodeChanged="TreeView1_SelectedNodeChanged" BorderStyle="None" ShowLines="True" Width="228px">
                     <Nodes>
                         <asp:TreeNode Text="1" ImageUrl="~/image/main.ico" ShowCheckBox="True" ToolTip="1111111">
                             <asp:TreeNode Text="1.1" ShowCheckBox="True" Value="1.1"></asp:TreeNode>

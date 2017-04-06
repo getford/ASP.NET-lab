@@ -88,16 +88,7 @@ namespace lb5_elements
         protected void Menu1_MenuItemClick(object sender, MenuEventArgs e)
         {
             Menu menu = (Menu)sender;
-            Response.Write(menu.SelectedItem.Text + " " + menu.SelectedItem.Value);
+            Response.Write(menu.SelectedItem.Value);
         }
     }
 }
-
-/*
-Задание 5.Элемент Menu
-
-20.	В области третьего View элемента MultyView  создайте элемент Menu.
-21.	Menu должен  иметь не  менее  3х уровней, быть статическим, вертикальным и иметь стиль не Classic.
-22.	Как минимум для одного из пунктов Menu должен быть установлен ToolTip.
-23.	Обработайте выбор узлов пунктов Menu,  выведите на форму значения соответствующие  выбранным пунктом.
-*/
