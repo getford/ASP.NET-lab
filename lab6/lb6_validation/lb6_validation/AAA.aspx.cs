@@ -27,5 +27,10 @@ namespace lb6_validation
             }
 
         }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

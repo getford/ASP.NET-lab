@@ -1,0 +1,14 @@
+﻿body {
+}
+.button{
+    width:100px;
+    height:100px;
+    color:gold;
+    font-family:'Microsoft Sans Serif';
+
+}
+.text{
+    font-size:large;
+    color:darkorange;
+    font-weight:700;
+}
