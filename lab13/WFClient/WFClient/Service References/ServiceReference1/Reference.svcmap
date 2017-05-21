@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4ac5b4bb-a9eb-4fa3-ae96-37fee4345a8b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/WCFDLL/Service1/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="9c84caf7-c64a-4063-8ff8-e7cb13be29eb" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFDLL/Service1/?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="9141915f-fbca-4d87-83df-e26949b23a7f" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFDLL/Service1/?wsdl" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="226a3833-63bc-4fd5-b047-557d3e1ccdce" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFDLL/Service1/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="30cc3056-c157-4868-a9f2-befb54a47d8b" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFDLL/Service1/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="0b94dafc-c10f-40ed-b9bf-f5d44ae80493" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFDLL/Service1/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,29 @@
+﻿@model lab14.Models.User
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary()
+            <p>Имя: @Html.TextBoxFor(u => u.firstName)</p>
+            <p>Фамилия: @Html.TextBoxFor(u => u.lastName)</p>
+            <p>Отчество: @Html.TextBoxFor(u => u.middleName)</p>
+            <p>День рождения: @Html.TextBoxFor(u => u.Bday)</p>
+            <p>Телефон: @Html.TextBoxFor(u => u.phone)</p>
+
+            <input type="submit" value="Add user" />
+        }
+    </div>
+    <p>@Html.ActionLink("Go back", "Index")</p>
+</body>
+</html>
