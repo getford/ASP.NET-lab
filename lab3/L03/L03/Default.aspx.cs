@@ -51,7 +51,7 @@ namespace L03
         {
             HttpWebRequest req = (HttpWebRequest)HttpWebRequest.Create("http://localhost:61580/aaa.zvy");
             req.Method = "PUT";
-            String postData = "param1=1&param2=aaa";
+            String postData = "param1=111&param2=aaa";
             byte[] byteArray = Encoding.UTF8.GetBytes(postData);
             req.ContentType = "application/x-www-form-urlencoded";
             req.ContentLength = byteArray.Length;

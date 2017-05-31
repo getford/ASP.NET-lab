@@ -1,0 +1,19 @@
+﻿@model IEnumerable<L14.Models.VideoModel>
+<h3>Partial view with all Videos on Server</h3>
+
+<table class="table">
+  
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <a href='@Url.Action("SelectVideo",new { id = item.Id })'>@item.Title</a>
+            <!--Url.Action("SelectVideo", "Video",item)-->
+           
+        </td>
+        
+    </tr>
+}
+
+</table>
+<!--Html.DisplayFor(modelItem => item.Title)-->

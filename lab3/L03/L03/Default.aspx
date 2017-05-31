@@ -45,8 +45,8 @@
             &nbsp;&nbsp;&nbsp; res =&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="TextBoxResult" runat="server" ReadOnly="True" ClientIDMode="Static" Width="293px"></asp:TextBox>
         </p>
-        <p>
+        <%--        <p>
             <input type="button" value="sum 2" onclick="me()" id="ButtonAjax">
-        </p>
+        </p>--%>
     </div>
 </asp:Content>

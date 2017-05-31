@@ -1,0 +1,10 @@
+﻿@model string
+<h3>Partial view with  Player </h3>
+<script>
+    console.log("lalalalala");
+</script>
+
+<video width="1024"  controls autoplay="autoplay"  loop>
+    <source src='@Url.Action("GetVideo","Video",new  { id= Model })' type="video/mp4"/>
+</video>
+ 

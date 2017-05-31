@@ -1,0 +1,36 @@
+﻿@using L14.Models
+@model IEnumerable<L14.Models.VideoModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2> 
+<p>
+
+
+    <h2>Upload</h2>
+    @using (Html.BeginForm("Upload", "Video", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        
+        <div class="form-horizontal">
+           
+            <div class="form-group">
+                <div class="col-md-10">
+                    <input type="file" name="file" accept="video/*"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Загрузить" class="btn btn-primary"  />
+                </div>
+            </div>
+           
+        </div>
+    }
+
+    <!--Html.ActionLink("Загрузить видео на сервер", "Upload")-->
+</p>
+@Html.Partial("Player", (string)ViewBag.fileId)
+ @Html.Partial("Video",Model)
